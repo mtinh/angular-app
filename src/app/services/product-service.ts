@@ -1,6 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { SupabaseService } from './supabase-service';
-import { Product } from '../ecommerce/model/Product';
+import { Product } from '../ecommerce/model/product';
 @Injectable({ providedIn: 'root' })
 export class ProductService {
   private supabase = inject(SupabaseService);
